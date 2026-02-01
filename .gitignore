@@ -5,6 +5,7 @@ package-lock.json
 # Environment variables
 .env
 *.env.local
+server/.env
 
 # Build output
 dist/
@@ -20,10 +21,28 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+.CFUserTextEncoding
 
 # Logs
 *.log
 npm-debug.log*
 
-.env
-server/.env
+# Claude
+.claude.json
+.claude.json.backup.*
+
+# Shell history/config (never commit these!)
+.zsh_history
+.zprofile
+.bash_history
+.bashrc
+
+# Other personal configs
+.gitconfig
+.viminfo
+.Xauthority
+
+# R language files
+.RData
+.Rhistory
+.Rapp.history
